@@ -1,0 +1,6 @@
+Symbol - str
+Number - (int, float)
+List - list
+Atom - (Symbol, Number)
+Exp - (Atom, list)
+Env - dict
