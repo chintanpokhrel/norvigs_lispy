@@ -84,6 +84,7 @@ def standard_env() -> Env:
     'expt': pow,
     'equal?': op.eq,
     'length': len,
+    'list': lambda *x: List(x),
     'list?': lambda x: isinstance(x, List),
     'map': map,
     'max': max,
